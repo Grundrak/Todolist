@@ -1,0 +1,94 @@
+body {
+  background-color: #435585;
+}
+
+
+.app {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #F5E8C7;
+  margin-top: 150px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.input button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.todos {
+  margin-top: 20px;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.todo .left {
+  display: flex;
+  align-items: center;
+}
+
+.todo .left input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.todo .right button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #dc3545;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.completed {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+}
+.task-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todos, .completed-tasks {
+  width: 45%;
+}
+
+.completed-tasks {
+  margin-left: 10%;
+}
